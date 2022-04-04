@@ -33,6 +33,17 @@ public class EjercicioCalculadora {
                 operacion = "Suma";
                 System.out.println("El resultado de " + operacion + " es " + resp);
                 break;
+                
+            case 2:
+                System.out.println("Ingrese el primer número");
+                num1 = lector.nextInt();
+                System.out.println("Ingrese el segundo número");
+                num2 = lector.nextInt();
+                resp = num1 - num2;
+                operacion = "Resta";
+                System.out.println("El resultado de " + operacion + " es " + resp);
+                break;
+                
         }       
     }
 }

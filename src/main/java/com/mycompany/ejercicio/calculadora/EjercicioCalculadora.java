@@ -43,6 +43,18 @@ public class EjercicioCalculadora {
                 operacion = "Resta";
                 System.out.println("El resultado de " + operacion + " es " + resp);
                 break;
+       
+            case 3:
+                System.out.println("Ingrese el primer numero");
+                num1 = lector.nextInt();
+                System.out.println("Ingrese el segundo mumero");
+                num2 = lector.nextInt();
+
+                resp = num1*num2;
+                operacion = "Multiplicación";
+                System.out.println("El resultado de la " + operacion + " es " + resp);
+                break;
+
                 
         }       
     }

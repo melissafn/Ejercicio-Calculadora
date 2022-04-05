@@ -54,6 +54,7 @@ public class EjercicioCalculadora {
                 operacion = "Multiplicación";
                 System.out.println("El resultado de la " + operacion + " es " + resp);
                 break;
+
              case 4:
                 System.out.println("Ingrese el primer numero");
                 num1 = lector.nextInt();

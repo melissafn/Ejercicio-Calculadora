@@ -60,15 +60,10 @@ public class EjercicioCalculadora {
                 num1 = lector.nextInt();
                 System.out.println("Ingrese el segundo mumero");
                 num2 = lector.nextInt();
-                if(num2===0){
-                  System.out.println("División entre cero invalida.");
-                  break;
-                }else{
-                  resp = num1/num2;
-                  operacion = "División";
-                  System.out.println("El resultado de la " + operacion + " es " + resp);
-                  break;
-                }
+                resp = num1/num2;
+                operacion = "División";
+                System.out.println("El resultado de la " + operacion + " es " + resp);
+                break;
         }       
     }
 }

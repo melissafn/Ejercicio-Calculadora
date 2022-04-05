@@ -60,7 +60,7 @@ public class EjercicioCalculadora {
                 num1 = lector.nextInt();
                 System.out.println("Ingrese el segundo mumero");
                 num2 = lector.nextInt();
-                If(num2===0){
+                if(num2===0){
                   System.out.println("División entre cero invalida.");
                   break;
                 }else{
@@ -69,7 +69,6 @@ public class EjercicioCalculadora {
                   System.out.println("El resultado de la " + operacion + " es " + resp);
                   break;
                 }
-                break;
         }       
     }
 }

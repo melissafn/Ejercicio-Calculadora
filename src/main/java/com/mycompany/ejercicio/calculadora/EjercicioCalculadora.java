@@ -54,8 +54,21 @@ public class EjercicioCalculadora {
                 operacion = "Multiplicación";
                 System.out.println("El resultado de la " + operacion + " es " + resp);
                 break;
-
-                
+             Case 4:
+                System.out.println("Ingrese el primer numero");
+                num1 = lector.nextInt();
+                System.out.println("Ingrese el segundo mumero");
+                num2 = lector.nextInt();
+                If(num2===0){
+                  System.out.println("División entre cero invalida.");
+                  break;
+                }Else{
+                  resp = num1/num2;
+                  operacion = "División";
+                  System.out.println("El resultado de la " + operacion + " es " + resp);
+                  break;
+                }
+                break;
         }       
     }
 }

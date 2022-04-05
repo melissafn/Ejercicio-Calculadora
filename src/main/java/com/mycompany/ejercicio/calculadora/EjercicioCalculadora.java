@@ -62,7 +62,7 @@ public class EjercicioCalculadora {
                 If(num2===0){
                   System.out.println("División entre cero invalida.");
                   break;
-                }Else{
+                }else{
                   resp = num1/num2;
                   operacion = "División";
                   System.out.println("El resultado de la " + operacion + " es " + resp);
